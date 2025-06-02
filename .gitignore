@@ -1,0 +1,22 @@
+# Ignore assignment file
+assignment.md
+
+# Common development files
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules (if needed in future)
+node_modules/
+
+# Build artifacts
+dist/
+build/ 

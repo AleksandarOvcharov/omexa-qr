@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Omexa QR Test</title>
+   <!-- Only one file import needed! -->
+   <script src="omexaqr.min.js"></script>
+</head>
+<body>
+   <h1>Omexa QR Code Test</h1>
+   
+   <p>Някакъв текст</p>
+   <qr link="https://www.google.com" size="128"></qr>
+   
+   <p>Testing different sizes:</p>
+   <qr link="https://github.com" size="500"></qr>
+   
+   <p>Size below 128 (should auto-adjust to 128):</p>
+   <qr link="https://stackoverflow.com" size="50"></qr>
+   
+   <p>No size specified (should default to 128):</p>
+   <qr link="https://www.youtube.com"></qr>
+   
+   <p><strong>Instructions:</strong> Open Developer Tools (F12) to see debug messages. All QR codes should be scannable!</p>
+   
+   <div style="margin-top: 20px; padding: 15px; background: #e8f5e8; border-left: 5px solid #4caf50;">
+       <strong>✨ Simple one-file solution!</strong><br>
+       Only one file needed: <code>omexaqr.min.js</code>
+   </div>
+</body>
+</html>
